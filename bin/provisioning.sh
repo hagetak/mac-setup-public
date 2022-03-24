@@ -32,5 +32,6 @@ cat << EOS > $HOME/.gitconfig
 EOS
 
 # private repository
+rm -rf $HOME/src/github.com/
 ghq get -p hagetak/mac-setup
 sh $HOME/src/github.com/hagetak/mac-setup/bin/provisioning.sh
