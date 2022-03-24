@@ -33,4 +33,4 @@ EOS
 
 # private repository
 ghq get -p hagetak/mac-setup
-sh $HOME/src/hagetak/mac-setup/bin/provisioning.sh
+sh $HOME/src/github.com/hagetak/mac-setup/bin/provisioning.sh
